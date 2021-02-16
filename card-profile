@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 1 / CARD - PROFILE</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Kumbh+Sans">
+    <link
+    rel="shortcut icon"
+    href="./images/favicon-32x32.png"
+    type="image/x-icon"/>
+    
+</head>
+<body>
 
+   <main class="container-card">
+
+
+  <!-- aca ya esta constituida la carta en html estructurada  -->
+
+    <article class="card">
+
+
+    <div class="container-card__header">
+
+    <img src="/images/bg-pattern-card.svg" alt="" class="card-img__banner">
+
+
+ 
+    </div>
+
+    <div class="container-card__body">
+
+        <div class="container-img__person">
+
+        <img src="/images/image-victor.jpg" alt="" class="card-img__person">
+
+    </div>
+
+        <h2 class="card-paragraph__name ">Victor charst <span class="card-paragraph__years card-paragraph__gray">17</span></h2>
+
+        <p class="card-paragraph__from card-paragraph__gray">Bogota</p>
+
+    </div>
+
+<!-- foooter card -->
+
+<!-- primer container -->
+
+
+
+<div class="container-card__boxs">
+        
+    <div class="card-footer__number">
+        <p class="card-paragraph__numbers card-paragraph__bold">10k</p>
+    </div>
+
+    <div class="card-footer__number">
+        <p class="card-paragraph__numbers card-paragraph__bold">5k</p>
+    </div>
+
+    <div class="card-footer__number">
+        <p class="card-paragraph__numbers card-paragraph__bold ">3 años</p>
+    </div>
+</div>
+
+<!-- segundo container  -->
+
+        <div class="container-card__boxs">
+
+            <div class="card-footer__box">
+                <p class="card-paragraph__followers card-paragraph__gray card-paragraph__skills">Seguidores</p>
+            </div>
+
+            <div class="card-footer__box">
+                <p class="card-paragraph__videos card-paragraph__gray card-paragraph__skills">Videos</p>
+            </div>
+            
+            <div class="card-footer__box">
+                <p class="card-paragraph__experience card-paragraph__gray card-paragraph__skills">Experiencia</p>
+            </div>
+        
+    
+    </div>
+
+
+</article>
+</main>
+
+
+
+<!-- <footer class="footer">Sergio Pinzón 2021</footer> -->
+
+
+
+
+
+</body>
+</html>
